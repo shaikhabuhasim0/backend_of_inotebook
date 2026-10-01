@@ -1,0 +1,22 @@
+{
+  "name": "inotebook1-backend",
+  "version": "1.0.0",
+  "description": "FOR SAVING THE STUFF ",
+  "license": "ISC",
+  "author": "ABU HASIM",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "express-validator": "^7.3.2",
+    "mongoose": "^9.9.5",
+    "mongose": "^0.0.2-security"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
